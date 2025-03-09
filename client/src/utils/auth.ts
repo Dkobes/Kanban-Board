@@ -27,7 +27,7 @@ class AuthService {
   login(idToken: string) {
     // TODO: set the token to localStorage
     // TODO: redirect to the home page
-    localStorage.setITem('id_token', idToken);
+    localStorage.setItem('id_token', idToken);
     window.location.href='/';
   }
 
